@@ -9,7 +9,7 @@
     "lint": "npm run lint:src && npm run lint:translations",
     "lint:fix": "eslint src --fix",
     "lint:src": "eslint src",
-    "lint:translations": "node scripts/lint-translations.mjs",
+    "lint:translations": "node scripts/validate-i18n",
     "format": "prettier --write .",
     "build": "rollup -c",
     "test": "npm run lint && npm run build",
